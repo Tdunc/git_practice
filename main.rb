@@ -6,7 +6,7 @@ def puts_git(cmd)
 end
 
 def menu 
-  puts "Main Menu".colorize(:blue)
+  puts "Main Menu".colorize(:yellow)
   puts '1: Enter git command'
   puts '2: Exit'.colorize(:red)
   choice = gets.to_i
