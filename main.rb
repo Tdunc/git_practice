@@ -6,7 +6,7 @@ def puts_git(cmd)
 end
 
 def menu 
-  puts "Main Menu".colorize(:yellow)
+  puts "Main Menu!".colorize(:blue)
   puts '1: Enter git command'
   puts '2: Exit'.colorize(:red)
   choice = gets.to_i
@@ -24,3 +24,7 @@ def menu
 end
 
 menu
+
+#git init (add to folder)
+# test code and do (get add .)
+# get commit -m "Comments here"
